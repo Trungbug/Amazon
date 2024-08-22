@@ -1,0 +1,11 @@
+.navbar_component {
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+}
+
+.navbar_logo {
+    background: url('https://ik.imagekit.io/BanHang1234/BANHANG/png-clipart-shopee-logo-brand-font-shopee-text-orange.png?updatedAt=1724311896054')no-repeat 0 0;
+    width: 900px;
+    height: 218px;
+}
