@@ -1,11 +1,56 @@
 .navbar_component {
-    width: 100px;
-    height: 60px;
-    background-color: orange;
+    width: 100vw;
+    height: 75px;
+    background-color: rgb(10, 10, 9);
+    display: flex;
 }
 
 .navbar_logo {
-    background: url('https://ik.imagekit.io/BanHang1234/BANHANG/png-clipart-shopee-logo-brand-font-shopee-text-orange.png?updatedAt=1724311896054')no-repeat 0 0;
-    width: 900px;
-    height: 218px;
+    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -20px -180px;
+    width: 152px;
+    height: 46px;
+    margin: 20px;
+}
+
+.navbar_locator {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.navbar_locator {
+    display: flex;
+    margin: 20px 0px;
+    margin-left: 5px;
+}
+
+.navbar_locatorImages {
+    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -142px -612px;
+    width: 34px;
+    height: 40px;
+}
+
+.navbar_searchbox {
+    width: 640px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.navbar_searchcomponet {
+    display: flex;
+}
+
+.navbar_searchicon {
+    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -20px -580px;
+    width: 42px;
+    height: 42px;
+
+
+}
+
+.navbar_searchboxdiv {
+    background: #FEBE68;
+    width: 48px;
+    height: 42px;
+    border-radius: 8px 5px 5px 8px;
+    margin-top: 10px;
 }
