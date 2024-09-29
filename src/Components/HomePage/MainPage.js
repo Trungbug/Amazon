@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import AdvertisementOne from "./AdvertisementOne/AdvertisementOne";
+import "./MainPage.css";
 class MainPage extends Component {
     constructor(props) {
         super(props);
@@ -8,8 +9,14 @@ class MainPage extends Component {
     render() {
         return (
 
-            < div >
-                MainPage
+            < div className="mainpage">
+
+                <div style={{ paddingTop: "260px", display: "flex", flexWrap: "wrap" }}>
+                    <AdvertisementOne />
+                    <AdvertisementOne />
+                    <AdvertisementOne />
+                    <AdvertisementOne />
+                </div>
             </div >
         );
     }
