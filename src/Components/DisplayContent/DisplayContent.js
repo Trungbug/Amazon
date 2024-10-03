@@ -2,7 +2,7 @@ import React from 'react';
 import LeftSidePanel from './LeftSide/LeftSidePannel';
 import RightSidePanel from './RightSide/RightSidePannel';
 
-const DisplayContent = (props) => {
+function DisplayContent(props) {
     return (
         <div style={{ display: 'flex' }}>
             <div>
