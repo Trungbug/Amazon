@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "./RightSide.css";
 import Product from './Product';
-const RightSidePanel = () => {
+const RightSidePanel = (props) => {
     const [listOfProduct, setListOfProducts] = useState([]);
     useEffect(() => {
         let list = [

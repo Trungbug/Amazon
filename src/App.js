@@ -1,5 +1,6 @@
 
 import './App.css';
+import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 import Navbar from './Components/NavBar/Navigation';
 import MainPage from './Components/HomePage/MainPage';
 import DisplayContent from './Components/DisplayContent/DisplayContent';
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <MainPage /> */}
-      <DisplayContent />
+      {/* <DisplayContent /> */}
+      <PlaceOrder />
     </div>
   );
 }
