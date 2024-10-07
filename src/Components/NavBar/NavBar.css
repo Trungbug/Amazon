@@ -1,83 +1,67 @@
-.navbar_component {
+.navbar__component {
     width: 100vw;
-    height: 75px;
-    background-color: rgb(10, 10, 9);
+    height: 60px;
+    background-color: #131A22;
     display: flex;
 }
 
-.navbar_logo {
-    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -20px -180px;
-    width: 152px;
-    height: 46px;
-    margin: 20px;
+.navbar__logo {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -50px;
+    width: 98px;
+    height: 31px;
+    margin: 18px;
 }
 
-.navbar_locator {
-    color: aliceblue;
-    font-weight: bold;
-}
-
-.navbar_locator {
+.navbar__locator {
     display: flex;
     margin: 20px 0px;
+}
+
+.navbar__location {
+    color: white;
+    font-weight: bold;
     margin-left: 5px;
 }
 
-.navbar_locatorImages {
-    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -142px -612px;
-    width: 34px;
-    height: 40px;
-}
-
-.navbar_searchbox {
-    width: 640px;
-    height: 30px;
-    margin-top: 10px;
-}
-
-.navbar_searchcomponet {
-    display: flex;
-    align-items: center;
-    margin-left: 72px;
-}
-
-.navbar__searchicon {
-    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -20px -580px;
-    width: 42px;
-    height: 42px;
-}
-
-.navbar__seaarchboxdiv {
-    background: #FEBE68;
-    width: 48px;
-    height: 45px;
-    border-radius: 0 5px 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav__dropdown {
-    width: 60px;
-    height: 45px;
-    background-color: #e6e5e5;
-    border-radius: 5px 0 0 5px;
-    text-align-last: center;
-    border: none;
-    outline: none;
+.navbar__locatorImage {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -70px -378px;
+    width: 16px;
+    height: 18px;
 }
 
 .navbar__searchcomponent {
     display: flex;
-    align-items: center;
-    height: 40px;
+    margin-left: 72px;
+}
 
+.navbar__seaarchboxdiv {
+    background-color: #FEBE68;
+    height: 44px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
 }
 
 .navbar__searchbox {
-    height: 42px;
-    border: none;
-    outline: none;
+    width: 640px;
+    height: 38px;
+    margin-top: 8px;
+}
+
+.navbar__searchicon {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -289px;
+    width: 23px;
+    height: 23px;
+    margin: 12px;
+}
+
+.nav__dropdown {
+    width: 60px;
+    height: 44px;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
 }
 
 .navbar__signin {
@@ -102,9 +86,9 @@
 }
 
 .cart__image {
-    background: url('https://ik.imagekit.io/BanHang1234/amazon-image/sprite.png?updatedAt=1724489764208') no-repeat -436px -674px;
-    width: 82px;
-    height: 56px;
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -217px -336px;
+    width: 43px;
+    height: 30px;
 }
 
 .navbar_text_cart {
